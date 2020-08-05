@@ -1,0 +1,22 @@
+import React, { useState } from 'react';
+
+export const Search = ({ getQuery }) => {
+	const [text, setText] = useState('');
+	const handleChange = (q) => {
+		setText(q);
+		getQuery(q);
+	};
+	return (
+		<section>
+			<form>
+				<input
+					type='text'
+					className='form-control'
+					placeholder='Search characters'
+					onChange={(e) => handleChange(e.target.value)}
+					autoFocus
+				/>
+			</form>
+		</section>
+	)
+}
