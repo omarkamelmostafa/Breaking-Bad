@@ -1,1 +1,10 @@
-<a href="https://imgflip.com/gif/4ah16l"><img src="https://imgflip.com/gif/4ah16l"/></a>
+Breaking Bad Cast
+React project that uses the breaking bad api to show and filter characters from the show
+
+Usage
+# Install dependencies
+npm install
+# Run app
+npm start
+# Build app
+npm run build
